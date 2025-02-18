@@ -28,8 +28,14 @@ function App() {
       <p className="read-the-docs underline">
         Click on the Vite and React logos to learn more
       </p>
+      <Hello/>
     </>
   )
 }
 
 export default App
+
+
+function Hello () {
+  return "hello world"
+}
